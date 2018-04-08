@@ -94,9 +94,6 @@ html {
   color:white;
 }
 
-/* .nav_content_container {
-
-} */
 
 .nav_content_container ul {
   display:flex;
@@ -112,3 +109,65 @@ html {
   font-weight:bold;
   font-family:"Helvetica";
 }
+
+/*main area  */
+
+.main_container {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product_container {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position:relative;
+  top:3rem;
+
+}
+
+.product_item {
+  border: 4px solid black;
+  display:inline-block;
+  width:30%;
+
+
+}
+
+.product_item p {
+  font-family:"Helvetica";
+  font-size: 1rem;
+  font-weight:bold;
+  color:white;
+  padding:0.5rem;
+  background-color:black;
+  text-align: center;
+  }
+
+  .product_item img {
+    height:9rem;
+    width:auto;
+    margin:2rem;
+  }
+
+  /* #glasses_container {
+    height:15rem;
+  } */
+
+  #glasses {
+    height:9rem;
+    width:9rem;
+    margin:2rem;
+  
+}
+
+
+
+
+
+  }
