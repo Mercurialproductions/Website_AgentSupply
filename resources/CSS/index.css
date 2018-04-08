@@ -12,7 +12,7 @@ html {
   width:100%;
 }
 
-
+/*  logo bar*/
 
 .logo_container {
 
@@ -29,7 +29,7 @@ html {
 
 }
 
-.logo_content_container {
+.logo_content_container, .new_arrival_content_container, .nav_content_container, .main_content_container, .copywrite_content_container {
   width:960px;
   display:flex;
   flex-direction:row;
@@ -44,4 +44,40 @@ html {
 
 .logo_content_container span {
   padding:0.66rem 1rem;
+}
+
+/* new arrivals container  */
+
+.new_arrival_container {
+  height:25rem;
+  width:100%;
+  background-image:url("../img/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+.new_arrival_item {
+  background-color: black;
+  width:20rem;
+  padding:2rem 3rem;
+  position:relative;
+  top:9rem;
+}
+
+.new_arrival_item h1 {
+  margin-top:1.33rem;
+  font-size:2rem;
+}
+
+.new_arrival_item h4 {
+  font-size: 1rem;
+  margin-top:1.33rem;
 }
